@@ -1,0 +1,32 @@
+head,body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1,h2{
+    color: #df1d1d;
+}
+
+p{
+    color: #a52a2a;
+    font-weight: 545;
+}
+
+ol{
+    color: #a52a2a;
+    font-weight: 545;
+}
+    
+
+ul{
+    color: #a52a2a;
+    letter-spacing: 3px;
+    font-weight: 545;
+}
+
+.f1{
+    background-color: #ffff00;
+    font-weight: bold;
+}
+.f2{
+    background-color: #ffff00;
+    font-weight: 600;
+}
