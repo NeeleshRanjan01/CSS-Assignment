@@ -1,0 +1,119 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/Rstecz1.jpg);
+    background-size: 100%;
+    background-repeat: no;
+    border: 10px;
+    border-color: rgb(85, 208, 85);
+    border-style: inset;
+    padding: 0%;
+    margin: 0%;
+}
+
+.div{
+    border: 7px;
+    border-style: solid;
+    border-color: red;
+    background-color: black;
+    text-align-last: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.flex {
+    display: flex;
+}
+
+.circle {
+    border: 7px;
+    width: fit-content;
+    padding: 110px 10px 110px 10px;
+    border-style: solid;
+    border-color: gray;
+    background-color: rgb(17, 207, 153);
+    text-align-last: center;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 300px;
+   
+}
+
+.p {
+    text-decoration: underline;
+    text-align:center;
+    font-size: 25px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+
+.div1 {
+border-radius: 30px;
+margin: 3% 0 0 3%;
+height: 40%;
+width: 25%;
+}
+
+.div2 {
+    border-radius: 30px;
+    position: absolute;
+    left: 19%;
+    top: 9%;
+    width: 30%;
+    height: 7%;     
+}
+
+.div3 {
+    border-radius: 30px;
+    margin: 3% 1% 0 50%;
+    height: 40%;
+    width: 25%;  
+}
+
+.form { 
+    border: 5px red dashed;
+    color: RED;
+    background-color: white;
+    position: absolute;
+    left: 60%;
+    margin-top: 250px;
+    height: 90%;
+    width: 25%;
+    text-align: center;
+}
+
+.div4 {
+    margin-left: 35%;
+    margin-top: 750px;
+    border-radius: 30px;
+    height: 2%;
+    width: 25%;  
+}
+
+
+.flex1 {
+    display: flex;
+}
+
+.menu{
+    display: inline;
+    border: 3px;
+    border-style: solid;
+    border-color: green;
+    background-color:aquamarine;
+    text-align: center;
+    color: rgb(30, 30, 190);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 6%;
+    margin-top: 20px;
+    border-radius: 30px;
+    height: 45%;
+    width: 24%;
+}
+    
