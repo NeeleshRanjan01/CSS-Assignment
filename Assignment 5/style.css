@@ -1,0 +1,403 @@
+body {
+    background-color: yellow;
+}
+
+
+.ol {
+    margin-left: 30%;
+    margin-bottom: 5%;;
+}
+
+.shape1 {
+    border: 1px solid black;
+    background-color: rgb(114, 142, 193);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 5%;
+    animation: shape1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shape1 {
+    from {
+      transform: skewX(30deg);
+    }
+    to {
+      transform: skewX(-30deg);
+    }
+  }
+
+.shape2 {
+    border: 1px solid black;
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 5%;
+    animation: shape2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;    
+}
+
+@keyframes shape2 {
+    from {
+      transform: skewy(30deg);
+    }
+    to {
+      transform: skewy(-30deg);
+    }
+  }
+
+
+  .shape3 {
+    border: 1px solid black;
+    background-color: rgb(114, 142, 193);;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 5%;
+    animation: shape3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;      
+}
+
+@keyframes shape3 {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+  }
+
+
+  .shape4 {
+    border: 1px solid black;
+    background-color: rgb(114, 142, 193);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 5%;     
+}
+
+.shape4a {
+    background-color: rgb(114, 142, 193);
+    animation: shape4a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+
+@keyframes shape4a {
+    from {
+        transform: scaley(0.2);
+    }
+    to {
+        transform: scaley(1);
+    }
+}
+.shape4b {
+    background-color: rgb(241, 93, 93);
+    animation: shape4b;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+
+@keyframes shape4b {
+    from {
+        transform: scalex(0.2);
+    }
+    to {
+        transform: scalex(1);
+    }
+}
+
+.shape4c {
+    background-color: rgb(38, 115, 38);
+    animation: shape4c;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+
+}
+
+@keyframes shape4c {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(90deg);
+    }
+  }
+
+
+  .ol1 {
+    margin: 0% 0% 2% 40% ;
+
+  }
+
+.button1 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(86, 184, 86);
+    border: none;
+    transition-duration: 3s;
+    padding-bottom: 135px;
+    
+}
+
+.button1:hover {
+    width: 450px;
+    transition-duration: 3s;
+}
+
+.button2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(86, 184, 86);
+    border: none;
+    transition-duration: 3s;
+    padding-bottom: 135px;
+    
+}
+
+.button2:hover {
+    width: 350px;
+    height: 350px;
+    transition-duration: 3s;
+    padding-bottom: 335px;
+}
+
+.button3 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(86, 184, 86);
+    border: none;
+    transition-duration: 3s;
+    padding-bottom: 135px;
+}
+
+.button3:hover {
+    width: 450px;
+    transition-duration: 3s;
+}
+
+.button4 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(86, 184, 86);
+    border: none;
+    transition-duration: 1s;
+    padding-bottom: 135px;
+}
+
+.button4:hover {
+    width: 450px;
+    transition-duration: 1s;
+}
+
+.button5 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(86, 184, 86);
+    border: none;
+    transition-duration: 4s;
+    padding-bottom: 135px;
+}
+
+.button5:hover {
+    width: 450px;
+    transition-duration: 4s;
+}
+
+.button6 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(86, 184, 86);
+    border: none;
+    transition-duration: 3s;
+    padding-bottom: 135px;
+}
+
+.button6:hover {
+    width: 450px;
+    transition-duration: 3s;
+}
+
+.button7 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(86, 184, 86);
+    border: none;
+    transition-duration: 5s;
+    padding-bottom: 135px;
+}
+
+.button7:hover {
+    width: 450px;
+    transition-duration: 5s;
+}
+
+.bg3 {
+    background-image: url(sky.jpg);
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:100vh;
+    position: relative;
+    overflow-x: hidden;
+    z-index: 1;
+   
+}
+
+
+
+
+.w1 {
+    margin-left: 400px;
+    font-weight: bold;
+    font-size: 50px;
+    background-color: orange;
+    margin-right: 10px;
+}
+
+.w2 {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: white;
+    margin-right: 10px;
+   
+}
+
+.w3 {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: green;
+}
+
+.road {
+    background-image: url(road.jpg);
+    background-repeat: repeat-x;
+    height: 300px;
+    width:650%;
+    position: absolute;
+    left:-8px;
+    bottom: -8px;
+    animation: road 2s linear infinite;
+    z-index: 2;
+}
+
+@keyframes road{
+    from {
+        transform: translateX(-10px);
+    }
+    to {
+        transform: translateX(-2000px);
+    }
+}
+
+.building {
+    background-image: url(city.png);
+    background-repeat: repeat-x;
+    height: 300px;
+    width: 650%;
+    position: absolute;
+    left: -8px;
+    bottom: 242.5px;
+    animation: building 5s linear infinite;
+    z-index: 2;
+
+}
+
+@keyframes building {
+    from {
+        transform: translateX(-10px);
+    }
+    to {
+        transform: translateX(-400px);
+    }
+}
+
+.car{
+    position: absolute;
+    left:50%;
+    bottom:190px;
+    z-index: 2;
+    transform: translateX(-50%);
+    animation: car 0.5s linear infinite;
+}
+
+
+.wheel1{
+    position: absolute;
+    left:285px;
+    bottom:10px;
+    z-index: 2;
+    transform: translateX(-50%);
+    animation: wheel2 0.5s linear infinite;
+}
+
+@keyframes wheel1 {
+    from {
+        transform: rotatez(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.wheel2 {
+    position: absolute;
+    left: 40px;
+    bottom:10px;
+    z-index: 2;
+    transform: translateX(-50%);
+    animation: wheel2 0.5s linear infinite;
+}
+
+@keyframes wheel2 {
+    from {
+        transform: rotatez(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.sun {
+    position: absolute;
+    left: 1200px;
+    top: 70px;
+    animation: sun 20s linear infinite;
+}
+
+@keyframes sun {
+    from {
+        transform: translateX(-10px);
+    }
+    to {
+        transform: translateX(-1200px);
+    }
+}
+
+.flag {
+    position: absolute;
+    left: 865px;
+    bottom:273px;
+    z-index: 2;
+    transform: translateX(-50%);
+    animation: flag 0.5s linear infinite;
+}
+
+
+
+
